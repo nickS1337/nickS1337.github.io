@@ -1,0 +1,78 @@
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu Mono";
+    background-color: #515151;
+    color: #fff;
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    font-family: "PT Sans";
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 { font-size: 2em; }
+
+h3 {
+    position: relative;
+    font-size: 1.65em;
+    font-family: "PT Sans";
+    font-weight: normal;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.arkos {
+    position: relative;
+    height: 20em;
+    width: 20em;
+}
+
+.megamendung {
+    position: relative;
+    height: 10em;
+    width: 30em;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inline {
+    position: relative;
+    display: inline-block;
+    text-align: middle;
+    margin-left: 3em !important;
+}
+
+.box-size {
+    position: relative;
+    display: inline;
+    height: fit-content;
+    width: fit-content;
+}
+
+.w-header {
+    position: relative;
+    font-size: 1.5em;   
+    margin-bottom: 1em;
+}
+
+.w-title {
+    position: relative;
+    font-size: 2.25em;
+    margin-bottom: 1.5em;
+}

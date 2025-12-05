@@ -1,0 +1,162 @@
+/* nav {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    padding: 4em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    box-sizing: border-box;
+    background-image: url("../pics/footer.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: #424242;
+    border-bottom: 0.15em solid rgb(128, 128, 128);
+    color: #fff;
+} */
+
+nav {
+    position: fixed;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    z-index: 999;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+
+nav img {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-links {
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
+    gap: 2em;
+    text-transform: uppercase;
+}
+
+.header-link {
+    font-size: 1.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #fff !important;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.header-link:hover, .header-signin:hover {
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-signin {
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+.nav h1 {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    font-size: 2em;
+    margin: 0;
+}
+
+.transition {
+    transition: 0.5s ease all;
+}
+
+/* end of nav styling */
+/* start of footer styling */
+
+footer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 8em;
+    padding-bottom: 2em;
+    background-color: #fff;
+    border-top: 0.2em solid #fff;
+    color: #fff;
+    background-image: url("/pics/nps_3_pattern-paper1.jpg");
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    z-index: 999;
+    /* background-image: url("../images/navbar_bg868786.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "PT Sans";
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    text-align: center;
+}
+
+footer img {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2em;
+}
+
+.footer-container {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+footer h2 {
+    font-size: 1.75em;
+}
+
+footer h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    margin: 0.25em;
+    margin-left: 0px;
+    font-weight: 300;
+}
+
+footer .logo { 
+    width: 10em;
+    height: 10em;
+    margin-bottom: 1em;
+}
+
+footer .email {
+    position: relative;
+    left: 0%;
+    transform: translateX(0%);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+footer h3 {
+    font-family: "Ubuntu Mono";
+}
+
+#return {
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    font-weight: 500;
+    transition: 0.5s ease all;
+}
+
+#return a {
+    color: #fff;
+    text-decoration-color: #fff;
+}

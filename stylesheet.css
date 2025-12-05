@@ -1,0 +1,587 @@
+.landing {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-color: #3d3d3d;
+    text-align: center;
+    background-image: url("/pics/landing.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#landing-panel-behind {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #242424;
+    filter: blur(300px);
+    opacity: 0.85;
+    height: 100%;
+    width: 100%;
+}
+
+#landing-panel-inner {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10em;
+    box-sizing: border-box;
+    z-index: 995;
+}
+
+.landing-img {
+    position: relative;
+    width: 30em;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("/pics/landing.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-content {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    color: #fff;
+    padding: 4em;
+    box-sizing: border-box;
+}
+
+.landing-content .w-title {
+    margin-bottom: 0.2em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0F0E0D;
+    opacity: 0.5;
+}
+
+.showcase {
+    position: relative;
+    padding: 10em;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    border-top: 0.15em solid rgb(128, 128, 128);
+    border-bottom: 0.15em solid rgb(128, 128, 128);
+}
+
+.showcase-inner {
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#welcome-pane {
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#hello-txt {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #B7B7B7;
+    font-family: "PT Serif" !important;
+    font-weight: 400;
+    font-size: 55px;
+}
+
+#archive-landing {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 11em;
+    height: 7em;
+    background-image: url("pics/ARCHIVE_W.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#welcome-description {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-family: "PT Serif";
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#download-cv, #send-email {
+    position: relative;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 6px;
+    letter-spacing: 0.75px;
+    background-color: #321ea1;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#download-cv-icon, #send-email-icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    background-image: url('pics/download_w.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#download-cv-txt, #send-email-txt {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#contact-asd {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #B7B7B7;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.welcome-header {
+    font-family: "PT Sans";
+    position: relative;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    color: #fff;
+    letter-spacing: 1em;
+    text-transform: uppercase;
+}
+
+#archive-landing {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 11em;
+    height: 7em;
+    background-image: url("/pics/ARCHIVE_W.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* section: arkos-intro */
+
+.arkos-intro {
+    position: relative;
+    background-image: url("/pics/nps_3_pattern-paper.jpg");
+    text-align: center;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.arkos-contributor {
+    position: relative;
+    display: inline-block;
+    transition: 0.5s ease all;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 4em;
+    border-radius: 10px;
+    text-align: left;
+    vertical-align: bottom;
+    height: fit-content;
+    width: 25em;
+    background-color: #3d3d3d;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+.arkos-contributor:hover label {
+    opacity: 1;
+}
+
+.arkos-contributor h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: "PT Sans";
+}
+
+.arkos-description {
+    text-align: center;
+    width: 35em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.arkos-contributor-top {
+    position: relative;
+    width: 100%;
+    height: 20em;
+}
+
+.megamendung {
+    position: relative;
+}
+
+.coming-soon {
+    position: relative;
+    font-family: "Ubuntu Mono";
+    text-transform: uppercase;
+    color: #ccc;
+}
+
+.edmund { background-image: url("/pics/edmund_1.jpg"); }
+.nick { background-image: url("/pics/nick_1.jpg"); }
+
+label {
+    text-transform: uppercase;
+    opacity: 0;
+}
+
+/* end of section: arkos-intro */
+/* section: public-collection */
+
+.public-collection {
+    background-image: url("/pics/edmund_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.public-collection h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.tour-showcase {
+    position: relative;
+    background-image: url("../images/tree-completed-6.jpg");
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: repeat;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10em;
+}
+
+#tours-link h2 {
+    display: inline-block;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+#tours-link a {
+    color: #000;
+    text-decoration: none;
+}
+
+#tours-link {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    margin-bottom: 1em;
+}
+
+#tours-link:hover {
+    position: relative;
+    padding: 2em;
+}
+
+#diving {
+    position: relative;
+    height: 20em;
+    width: 20em;
+    margin-bottom: 3em;
+}
+
+/* refresher from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox */
+.showcase-container {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: fit-content;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    /* justify-content: space-between; */
+    gap: 0.5em; /* help from https://stackoverflow.com/questions/20626685/how-do-i-set-distance-between-flexbox-items */
+    box-sizing: border-box;
+}
+
+.column-item {
+    position: relative;
+    height: 40em;
+    width: 20em;
+    margin-bottom: 1em;
+    flex-grow: 1;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    transition: 0.5s ease all;
+    overflow: hidden;
+}
+
+.fishing { height: 35em !important; }
+.urban { height: 40em !important; }
+
+.column-item-inner-container {
+    position: absolute;
+    top: 0%;
+    /* background-color: #001930; */
+    width: 100%;
+    height: 300%;
+    animation: 30s infinite tiling ease-in-out;
+}
+
+/* slowed the animations way down because of performance issues */
+.tiling-30s { animation: 60s infinite tiling ease-in-out;  }
+.tiling-20s { animation: 50s infinite tiling ease-in-out;  }
+.tiling-10s { animation: 40s infinite tiling ease-in-out;  }
+
+.tiling-10s:hover {
+    animation: 10s infinite tiling ease-in-out;
+}
+
+
+/* help from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations */
+@keyframes tiling {
+    33% { top: -100%; }
+    66% { top: -200%; }
+    /* 99% { top: -300% } */
+    100% { top: 0%; }
+}
+
+.column-item-inner {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    height: 30em;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #ccc;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.column-item:hover .column-item-inner-container {
+    animation-play-state: paused;
+}
+
+.column-item {
+    position: relative;
+}
+
+.column-item:hover .column-item-txt {
+    left: 0%;
+}
+
+.column-item-txt {
+    position: relative;
+    /* height: 100%; */
+    height: 100%;
+    width: 100%;
+    /* background-image: url("../images/pattern.jpg"); */
+    padding: 1.5em;
+    box-sizing: border-box;
+    text-align: left;
+    left: -100%;
+    transition: 0.5s ease all;
+    z-index: 500;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.column-item-txt h3 {
+    position: relative;
+    z-index: 599;
+}
+
+.item-txt-overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+/* end of section: public-collection */
+/* start of section: contact */
+
+.leaf {
+    position: relative;
+    height: 15em;
+    width: 15em;
+    background-image: url("/pics/edmund_7a.png");
+    margin-bottom: 1.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    right: 0px;
+    margin-left: auto;
+}
+
+.contact {
+    position: relative;
+    display: table;
+    background-image: url("/pics/new-leaf.jpeg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    text-align: center;
+    /* padding-top: 8em;
+    padding-bottom: 8em; */
+    height: 8em;
+    padding: 0em;
+    margin: 0px;
+}
+
+.contact-left, .contact-right {
+    position: relative;
+    display: table-cell;
+    padding: 8em;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 50%;
+}
+
+.contact-left, .contact-left h3, .contact-left h3  {
+    text-align: right;
+}
+
+.contact-left h3 {
+    margin-top: 1em;
+}
+
+.contact-right h4 {
+    font-family: "Ubuntu Mono";
+    font-weight: normal;
+    font-size: 1.15em;
+    text-transform: uppercase;
+}
+
+.contact-left {
+    position: relative;
+    background-image: url("/pics/new-leaf2.jpeg");
+    background-size: contain;
+    background-color: #0f0f0f;
+}
+
+.contact-right {
+    position: relative;
+    text-align: left;
+}
+
+.contact .arkos-description {
+    position: relative;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+}
+
+.arrow-right {
+    position: relative;
+    height: 2em;
+    width: 15em;
+    text-align: right;
+    background-image: url("/pics/arrow-right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+.send-icon {
+    position: relative;
+    background-image: url("/pics/google_icons/send_100dp_FFFFFF_FILL0_wght400_GRAD0_opsz48.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3em;
+    width: 3em;
+    margin-bottom: 2em;
+}
+
+.email {
+    position: relative;
+    background-color: #a5a5a5;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 10px;
+    border-bottom: 0.2em solid #5e5e5e;
+    cursor: pointer;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    transition: 0.3s ease all;
+    background-image: url("/pics/linez.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none !important;
+}
+
+.email:hover {
+    background-color: #5e5e5e;
+}
+
+.email h3 {
+    position: relative;
+    font-family: "Ubuntu Mono";
+    margin: 0px;
+    padding: 0px;
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.email-icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    height: 2em;
+    width: 2em;
+    background-image: url("/pics/google_icons/stacked_email_60dp_E3E3E3_FILL0_wght400_GRAD0_opsz48.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* end of section: contact */
