@@ -5,6 +5,8 @@
     display: table;
     background-color: #3d3d3d;
     text-align: center;
+    padding: 10em;
+    box-sizing: border-box;
     background-image: url("/pics/landing.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -28,8 +30,8 @@
     position: relative;
     display: table-cell;
     vertical-align: middle;
-    padding: 10em;
-    box-sizing: border-box;
+    /* padding: 10em;
+    box-sizing: border-box; */
     z-index: 995;
 }
 
