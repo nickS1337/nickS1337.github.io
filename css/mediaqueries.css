@@ -1,0 +1,83 @@
+/* media queries */
+/*
+Desktop ≥ 1024px → three-column layout
+Tablet 768–1023px → two-column layout
+Mobile ≤ 767px → single-column layout
+*/
+
+/* tablet */
+@media screen and ((min-width: 768px) and (max-width: 1023px)) {
+    
+    .tour-showcase {
+        padding: 5em;
+    }
+
+    .showcase-container {
+        max-width: 40em !important;
+        box-sizing: border-box;
+        gap: 0em;
+    }
+
+    /* reference: https://stackoverflow.com/questions/44242141/two-columns-flex-box-layout */
+
+    .column-item {
+        padding: 0.2em !important;
+        /* flex: 1.5; */
+        box-sizing: border-box;
+    }
+
+    #column-3, #column-3 .column-item {
+        width: 100% !important;
+    }
+
+    p {
+        max-width: initial !important;
+    }
+
+}
+
+@media screen and ((min-width: 1px) and (max-width: 767px)){
+
+    .showcase-outer {
+        transform: scale(70%);
+    }
+
+    .contact-left, .contact-right {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contact-left h3 {
+        text-align: center;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .tour-showcase {
+        padding: 5em;
+    }
+
+    .showcase-container {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        /* width: 30em; */
+        gap: 0em;
+        padding: 0em;
+    }
+
+    .container-column {
+        width: 35em;
+    }
+
+    .column-item {
+        width: 100% !important;
+    }
+
+    p {
+        max-width: initial !important;
+    }
+
+}

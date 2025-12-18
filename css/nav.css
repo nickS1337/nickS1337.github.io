@@ -23,7 +23,6 @@ nav {
     padding-bottom: 1em;
     width: 100%;
     z-index: 999;
-    -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
     text-align: center;
 }

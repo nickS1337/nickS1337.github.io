@@ -5,7 +5,8 @@
     display: table;
     background-color: #3d3d3d;
     text-align: center;
-    padding: 10em;
+    /* padding: 10em; */
+    text-align: center;
     box-sizing: border-box;
     background-image: url("/pics/landing.png");
     background-position: center;
@@ -30,8 +31,8 @@
     position: relative;
     display: table-cell;
     vertical-align: middle;
-    /* padding: 10em;
-    box-sizing: border-box; */
+    text-align: center;
+    box-sizing: border-box;
     z-index: 995;
 }
 
@@ -94,8 +95,9 @@
 
 #welcome-pane {
     position: relative;
+    padding-top: 2em;
+    padding-bottom: 2em;
     box-sizing: border-box;
-    text-align: left;
 }
 
 #hello-txt {
@@ -173,13 +175,21 @@
     cursor: pointer;
 }
 
+.welcome-preheader {
+    position: relative;
+    font-size: 2em;
+    font-family: "PT Sans";
+    letter-spacing: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .welcome-header {
     font-family: "PT Sans";
     position: relative;
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 0.5em;
     color: #fff;
-    letter-spacing: 1em;
+    letter-spacing: 0.8em;
     text-transform: uppercase;
 }
 
@@ -201,7 +211,6 @@
     position: relative;
     background-image: url("/pics/nps_3_pattern-paper.jpg");
     text-align: center;
-    background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -487,7 +496,7 @@ label {
 }
 
 .contact-left, .contact-left h3, .contact-left h3  {
-    text-align: right;
+    text-align: center;
 }
 
 .contact-left h3 {
@@ -577,6 +586,7 @@ label {
 .email-icon {
     position: relative;
     display: inline-block;
+    text-align: right;
     vertical-align: middle;
     height: 2em;
     width: 2em;

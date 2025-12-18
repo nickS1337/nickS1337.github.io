@@ -1,0 +1,192 @@
+h1 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* start of section: #intro */
+
+#intro p {
+    text-transform: uppercase;
+}
+
+.cover {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.transition {
+    transition: 0.5s ease all;
+}
+
+.landing-item {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 50%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.landing-right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 4em;
+    text-align: left;
+    font-family: "Roboto Mono";
+    background-color: rgb(172, 172, 172, 0.5);
+    color: #fff;
+    background-image: url("./pics/crocB.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+.landing-right .logo {
+    height: 5em;
+    width: 13em;
+}
+
+.landing-right h2, h2 {
+    margin: 0.25em;
+    margin-left: 0px;
+    font-size: 1.5em;
+}
+
+#intro {
+    position: relative;
+    display: block;
+    /* height: fit-content; */
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding: 12em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('/pics/tree-completed.png');
+    color: #fff;
+    text-align: center;
+    border-bottom: 0.2em solid #001930;
+}
+
+.sig {
+    position: relative;
+    height: 5em;
+    width: 5em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#intro p, #connect p, p {
+    font-size: 1.5em;
+}
+
+#intro a {
+    color: #fff;
+}
+
+#intro-face {
+    position: relative;
+    height: 25em;
+    width: 15em;
+    border-radius: 5em;
+}
+
+.intro-button {
+    position: relative;
+    display: inline-block;
+    font-family: "Roboto Mono";
+    box-sizing: border-box;
+    transition: 0.5s ease all;
+    margin-top: 2em;
+    height: 20em;
+    width: 20em;
+    text-align: left;
+    margin-right: 2.5em;
+    border: 0.1em solid #ccc;
+    border-bottom: 0.3em solid #c7c7c7;
+    overflow: hidden;
+}
+
+.intro-button-top, .intro-button-bottom {
+    position: absolute;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.5s ease all;
+}
+
+.intro-button-top {
+    top: -100%;
+    padding: 1em;
+    font-size: 1em;
+    background-color: #acacb0;
+    background-image: url("./pics/nps_3_pattern-paperB.png");
+}
+
+.top-bg1 {
+    background-image: url("./pics/nps_3_pattern-paperC.png")
+}
+
+.top-bg2 {
+    background-image: url("./pics/nps_3_pattern-paperA.png")
+}
+
+.intro-button-bottom {
+    top: 0%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    padding: 2em;
+    font-size: 1.5em;
+    background-color: #636363;
+    color: #fff;
+    background-image: url("./pics/nps_4_pattern-paper.png");
+    background-size: contain;
+    background-blend-mode: darken;
+    background-repeat: repeat-y;
+}
+
+.intro-button:hover .intro-button-bottom {
+    top: 100%;
+}
+
+.intro-button:hover .intro-button-top {
+    top: 0%;
+}
+
+.intro-button-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    background-color: #001930;
+}
+
+.intro1 { background-image: url("./pics/ns_scanz-1-face.png"); }
+.intro2  { background-image: url("./pics/ns_scanz-2.png"); }
+.snapper { background-image: url("./pics/snapper.png") }
+
+/* end of section: #intro */
+/* start of section: #showcase */
+/* end of section: #showcase */
