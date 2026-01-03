@@ -112,7 +112,7 @@
 
 #archive-landing {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     width: 11em;
     height: 7em;
@@ -170,9 +170,12 @@
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    color: #B7B7B7;
+    color: #fff;
+    background-color: #818181;
     font-size: 1.25em;
+    letter-spacing: 0.5em;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .welcome-preheader {
@@ -191,6 +194,17 @@
     color: #fff;
     letter-spacing: 0.8em;
     text-transform: uppercase;
+}
+
+.short-hr {
+    position: relative;
+    height: 0.1em;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 30%;
+    background-color: #ccc;
 }
 
 #archive-landing {
@@ -568,7 +582,7 @@ label {
     text-decoration: none !important;
 }
 
-.email:hover {
+.email:hover, #contact-asd:hover {
     background-color: #5e5e5e;
 }
 
