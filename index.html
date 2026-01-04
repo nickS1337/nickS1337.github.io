@@ -9,13 +9,13 @@
     <title>THE ARKOSMITH COLLECTIVE</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/world.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
 
 </head>
 
@@ -46,18 +46,20 @@
             
             <div id="welcome-pane">
 
+                <div class="welcome-preheader">DIGITAL PORTFOLIO OF</div>
                 <div class="welcome-header">ARKOSMITH</div>
                 
-                <div id="archive-landing"></div>
+                <br>
+                <div class="short-hr"></div>
 
                 <div id="welcome-description">
-                    <br><br>Based in Melbourne VIC, Australia.<br> Visual Artist Collective. 
+                    <br>Melbourne VIC, Australia<br> Visual Artist Collective
                 </div>
 
                 <div id="welcome-buttons">
 
                     <a href="#lets-connect" style="color: #fff; text-decoration: none;">
-                        <div id="contact-asd">Contact us</div>
+                        <div id="contact-asd" class="email">Contact us</div>
                     </a>
 
                 </div>
@@ -67,32 +69,34 @@
         </div>
     </div>
     <section class="showcase arkos-intro">
-        <div class="showcase-inner">
-            <img src="/pics/arkos.png" class="arkos">
-            <!-- <div class="showcase-title">Our Collection</div> -->
+        <div class="showcase-outer">
+            <div class="showcase-inner">
+                <img src="/pics/arkos.png" class="arkos">
+                <!-- <div class="showcase-title">Our Collection</div> -->
 
-            <h1>HELLO, WE ARE <br>THE ARKOSMITH COLLECTIVE</h1>
-            <h3 class="arkos-description">The Arkosmith Collective is an independent visual artist collective with a focus on mix-media work, ranging from physical paintings to digital design (including web development services).</h3>
+                <h1>HELLO, WE ARE <br>THE ARKOSMITH COLLECTIVE</h1>
+                <h3 class="arkos-description">The Arkosmith Collective is an independent visual artist collective with a focus on mix-media work, ranging from physical paintings to digital design (including web development services).</h3>
 
-            <div class="contributor-top">
-                <div class="arkos-contributor edmund">
-                    <div class="arkos-contributor-top"></div>
-                    <div class="arkos-contributor-bottom">
-                        <h3 name="edmund">Edmund Koska</h3>
-                        <label for="edmund">PORTFOLIO COMING SOON</label>
+                <div class="contributor-top">
+                    <div class="arkos-contributor edmund">
+                        <div class="arkos-contributor-top"></div>
+                        <div class="arkos-contributor-bottom">
+                            <h3 name="edmund">Edmund Koska</h3>
+                            <label for="edmund">PORTFOLIO COMING SOON</label>
+                        </div>
                     </div>
-                </div>
-                <div class="arkos-contributor nick">
-                    <div class="arkos-contributor-top"></div>
-                    <div class="arkos-contributor-bottom">
-                        <h3 name="edmund">Nicholas Smith</h3>
-                        <label for="edmund">PORTFOLIO COMING SOON</label>
+                    <div class="arkos-contributor nick">
+                        <div class="arkos-contributor-top"></div>
+                        <div class="arkos-contributor-bottom">
+                            <h3 name="edmund">Nicholas Smith</h3>
+                            <label for="edmund">PORTFOLIO COMING SOON</label>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="showcase public-collection">
+    <section class="showcase public-collection" id="public-collection">
 
         <img src="/pics/ns_megamendung.png" class="megamendung"/>
         <h2>OUR PUBLIC COLLECTION</h2>
@@ -143,17 +147,23 @@
             <div class="leaf"></div>
             <h2>CONTACT US</h2>
             <h3>You can reach us at our email address</h3>
-            <div class="arrow-right"></div>
-        </div>
-        <div class="contact-right">
-            <!-- <div class="send-icon"></div> -->
-            <h4>WRITE TO US:</h4>
+            <!-- <div class="arrow-right"></div> -->
             <a href="mailto:arkosmith.com" style="text-decoration: none;">
                 <div class="email">
                     <div class="email-icon"></div>
                     <h3>hello@arkosmith.com</h3>
                 </div>
             </a>
+        </div>
+        <div class="contact-right">
+            <!-- <div class="send-icon"></div> -->
+            <!-- <h4>WRITE TO US:</h4> -->
+            <!-- <a href="mailto:arkosmith.com" style="text-decoration: none;">
+                <div class="email">
+                    <div class="email-icon"></div>
+                    <h3>hello@arkosmith.com</h3>
+                </div>
+            </a> -->
         </div>
 
     </section>
