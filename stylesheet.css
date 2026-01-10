@@ -474,28 +474,35 @@ label {
     height: 15em;
     width: 15em;
     background-image: url("/pics/edmund_7a.png");
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    text-align: right;
-    right: 0px;
-    margin-left: auto;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact {
     position: relative;
     display: table;
-    background-image: url("/pics/new-leaf.jpeg");
+    background-image: url("/pics/edmund_2b.jpg");
     background-repeat: repeat;
     background-size: contain;
     background-attachment: fixed;
     text-align: center;
-    /* padding-top: 8em;
-    padding-bottom: 8em; */
+    padding-top: 8em;
+    padding-bottom: 8em;
+    box-sizing: border-box;
     height: 8em;
-    padding: 0em;
+    /* padding: 3em; */
     margin: 0px;
+}
+
+.contact .email {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact-left, .contact-right {
@@ -534,6 +541,10 @@ label {
 .contact-right {
     position: relative;
     text-align: left;
+}
+
+.contact h3 {
+    margin-bottom: 1em;
 }
 
 .contact .arkos-description {
