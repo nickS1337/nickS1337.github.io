@@ -276,6 +276,8 @@
 
 .megamendung {
     position: relative;
+    height: 8rem;
+    width: 25rem;
 }
 
 .coming-soon {
@@ -283,6 +285,7 @@
     font-family: "Ubuntu Mono";
     text-transform: uppercase;
     color: #ccc;
+    width: fit-content;
 }
 
 .edmund { background-image: url("/pics/edmund_1.jpg"); }

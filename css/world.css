@@ -22,7 +22,7 @@ h2 { font-size: 2em; }
 
 h3 {
     position: relative;
-    font-size: 1.65em;
+    font-size: 1.65rem;
     font-family: "PT Sans";
     font-weight: normal;
     margin-top: 2em;
@@ -33,12 +33,6 @@ h3 {
     position: relative;
     height: 20em;
     width: 20em;
-}
-
-.megamendung {
-    position: relative;
-    height: 10em;
-    width: 30em;
 }
 
 .logo {
